@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infos de Profil</title>
+</head>
+<body>
+    <form action="#" method="get" onsubmit="">
+        <label >Homme</label>
+        <input type="radio" name="g1" id="r1"> 
+        <label >Femme</label>
+        <input type="radio" name="g1" id="r2"> <br>
+        <input type="checkbox" id="ch1" value="je suis une Societé">
+        <label > Oui;je suis une Societé</label> <br>
+        <label >Nom de Societé</label> <br>
+        <input type="text" id="nomsocieté"> <br>
+        <label >Titre Profil*</label> </br>
+        <input type="text"  id="profil" size="40" placeholder="Ex : Developpeur senior en PHP"> <br>
+        <label >Pays/Ville*:</label> <br>
+        <select id="pays">
+            <option value="0">Selectionner</option>
+            <option value="1">Maroc/Benslimane</option>
+            <option value="2">Maroc/Rabat</option>
+        </select> <br>
+        
+        <label > telephone*:</label> <br>
+        <input type="text"  id="telephone"> <br>
+        <input type="checkbox"  id="ch2"> 
+        <label > Disponibilité*:</label> <br>
+        <label >Tarifs*:</label> <br>
+        <input type="text"  id="tarifs" placeholder="Ex:400"> Dh /Jour <br>
+        <label > Compétences maitrisées</label> <br>
+        <select  id="s1">
+            <option value="0">Selectionner</option>
+            <option value="1">PHP / MySQL</option>
+            <option value="2">Java/Oracle</option>
+        </select>
+        <select id="s2" >
+            <option value="0">Selectionner</option>
+            <option value="1">Senior</option>
+            <option value="2">Debutant</option>
+        </select>
+        <input type="button" value="ajouter" onclick="ajouter()" /> <br>
+        <label > listes de vos competences</label> <br>
+        <select id="s3" size="5" >     
+        </select>
+        <input type="button" value="Valider" onclick="valider()">
+        
+
+<div id="diverreur"></div>
+    </form>
+   <script src="page.js"></script> 
+</body>
+</html>
